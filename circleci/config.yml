@@ -1,0 +1,9 @@
+executor:
+  default:
+    docker:
+      - image:circleci/node:8
+    working_directory: ~/repo
+
+version: 2.1
+jobs:
+  
